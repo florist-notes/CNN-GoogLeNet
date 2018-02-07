@@ -21,7 +21,7 @@ When we first take a look at the structure of GoogLeNet ( above gif ), we notice
 Architecture
 -
 
-Let's look at the structure of GoogLeNet. It is a <b>22 layer</b> network, which starts with general CONV-POOL-NORM layers and ends with POOL-FC-SOFTMAX-> but is not sequential (linear) in between. We have chunks of parallel blocks in between, called the 'inception' block, which forms the network architecture.I will explain the network in detail as we go through the post.
+Let's look at the structure of GoogLeNet. It is a <b>22 layer</b> network, which starts with general CONV-POOL-NORM layers and ends with POOL-FC-SOFTMAX-> but is not sequential (linear) in between. We have chunks of parallel blocks in between, called the 'inception' block, which forms the network architecture. I will explain the network in detail as we go through the post, so lets check out <b>'GoogLeNet'</b> :
 
 <img src = "https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/gg.png">
 
