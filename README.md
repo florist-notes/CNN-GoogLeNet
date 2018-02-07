@@ -64,7 +64,9 @@ So, Inception module all done! Now we can say that, GoogLeNet = stack the incept
 
 These are extra stems coming out from the main network, called the auxiliary layers. Apart from the final softmax, there are 1000 way imagenet training classification loss in these 2 seperate places. This is done so that more gradient injected in these intermediate layers, which directs more helpful signal flows through the network.Given the relatively large depth of the network, the ability to propagate gradients back through all the layers in an effective manner was a concern. One interesting insight is that the strong performance of relatively shallower networks on this task suggests that the features produced by the layers in the middle of the network should be very discriminative. By adding auxiliary classifiers connected to these intermediate layers, we would expect to encourage discrimination in the lower stages in the classifier, increase the gradient signal that gets propagated back, and provide additional regularization. These classifiers take the form of smaller convolutional networks put on top of the output of the Inception (4a) and (4d) modules. During training, their loss gets added to the total loss of the network with a discount weight (the losses of the auxiliary classifiers were weighted by 0.3). At inference time, these auxiliary networks are discarded.
 
-So, we are now left with the final GoogLeNet structure, with 22 weight layers.
+The network in network conv is able to extract information about the very fine grain details in the volume, while the 5x5 filter is able to cover a large receptive field of the input, and thus able to extract its information as well. You also have a pooling operation that helps to reduce spatial sizes and combat overfitting. On top of all of that, you have ReLUs after each conv layer, which help improve the nonlinearity of the network. Basically, the network is able to perform the functions of these different operations while still remaining computationally considerate.
+
+So, we are now left with the final GoogLeNet architecture, with 22 weight layers.
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/fg.jpg">
 
 You can also follow Andrew NG's lectures [Inception Network Motivation](https://youtu.be/HunX473yXEI) & [Inception Network](https://youtu.be/LUaRa65J_Ms) for visual understanding. 
@@ -80,6 +82,12 @@ Important Points
     ❅ No Fully Connected Layer
     ❅ Only 5 Million parameters ( 12x less than AlexNet )
     ❅ Computational efficiency ( 2x times less than AlexNet )
+    ❅ Used 9 Inception modules in the whole architecture, with over 100 layers in total!
+    ❅ No use of fully connected layers! They use an average pool instead, to go from a 7x7x1024
+       volume to a 1x1x1024 volume. This saves a huge number of parameters.
+    ❅ Utilized concepts from R-CNN for their detection model.
+    ❅ During testing, multiple crops of the same image were created, fed into the network, and 
+       the softmax probabilities were averaged to give us the final solution.
   
 Practical
 -
