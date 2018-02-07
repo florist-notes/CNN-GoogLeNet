@@ -14,7 +14,7 @@ This paper is important as it stands as a stepping stone for CNNs in Computer Vi
 
 
 
-<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g.png">
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g1.jpg">
 
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g2.jpg">
