@@ -14,7 +14,19 @@ This paper is important as it is one of the first CNN architectures that really 
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/GoogleNet.gif">
 
+Overview
+-
+
 Architecture
+-
+
+model.summary()
+-
+
+Important Points
+-
+
+Practical
 -
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g1.jpg">
@@ -34,4 +46,8 @@ GoogleNet V-4 ( InceptionResNet_V2 )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
-
+References
+-
+    
+      CS231n : Lecture 9 | CNN Architectures - GoogLeNet
+      adeshpande3.github.io for /gif 
