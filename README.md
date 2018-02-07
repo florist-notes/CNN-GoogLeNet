@@ -44,7 +44,7 @@ Let's take an example, suppose we have an input image ( 28x28x256 ) to an incept
         5 x 5 of 96  filters
         3 x 3 pool
         
-Each one of these convolves and outputs images of 28x28x128, 28x28x192, 28x28x96 & 28x28x256. All these operations are concatenated at end, 'depth' wise. So, finally we get an output of 28x28x(128+192+96+256) = 28x28x672. This is huge, we kept the same spatial dimension, but we blew out the depth.
+Each one of these convolves and outputs images of 28x28x128, 28x28x192, 28x28x96 & 28x28x256 respectively. All these operations are concatenated at end, 'depth' wise. So, finally we get an output of 28x28x(128+192+96+256) = 28x28x672. This is huge, we kept the same spatial dimension, but we blew out the depth.
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/opinN.jpg">
 
