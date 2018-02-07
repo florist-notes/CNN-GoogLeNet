@@ -16,7 +16,7 @@ This paper is important as it is one of the first CNN architectures that really 
 
 Overview
 -
-When we first take a look at the structure of GoogLeNet ( above gif ), we notice immediately that not everything is happening sequentially, as seen in previous architectures. We have pieces of the network that are happening in parallel as well. 'GoogLeNet' is a 22 layer deep Convolutional Neural Network architecture with considerable computational efficiency, introduced in 2014 by [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html), [Wei Liu](https://scholar.google.com/citations?user=yFMX138AAAAJ), [Yangqing Jia](https://scholar.google.com/citations?user=mu5Y2rYAAAAJ), [Pierre Sermanet](https://scholar.google.com/citations?user=0nPi5YYAAAAJ), [Scott Reed](https://scholar.google.com/citations?user=jEANvfgAAAAJ&hl=en), [Dragomir Anguelov](http://dblp.uni-trier.de/pers/hd/a/Anguelov:Dragomir), [Dumitru Erhan](https://scholar.google.co.in/citations?user=wfGiqXEAAAAJ&hl=en), [Vincent Vanhoucke](https://research.google.com/pubs/VincentVanhoucke.html) and [Andrew Rabinovich](https://scholar.google.co.in/citations?user=qn1ejaQAAAAJ&hl=en)
+When we first take a look at the structure of GoogLeNet ( above gif ), we notice immediately that not everything is happening sequentially, as seen in previous architectures. We have pieces of the network that are happening in parallel as well. 'GoogLeNet' is a 22 layer deep Convolutional Neural Network architecture with considerable computational efficiency, introduced in 2014 by [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html), [Wei Liu](https://scholar.google.com/citations?user=yFMX138AAAAJ), [Yangqing Jia](https://scholar.google.com/citations?user=mu5Y2rYAAAAJ), [Pierre Sermanet](https://scholar.google.com/citations?user=0nPi5YYAAAAJ), [Scott Reed](https://scholar.google.com/citations?user=jEANvfgAAAAJ&hl=en), [Dragomir Anguelov](http://dblp.uni-trier.de/pers/hd/a/Anguelov:Dragomir), [Dumitru Erhan](https://scholar.google.co.in/citations?user=wfGiqXEAAAAJ&hl=en), [Vincent Vanhoucke](https://research.google.com/pubs/VincentVanhoucke.html) and [Andrew Rabinovich](https://scholar.google.co.in/citations?user=qn1ejaQAAAAJ&hl=en). The GoogLeNet is spelled so and not GoogleNet, in order to pay homage to [LeNet](https://github.com/SKKSaikia/CNN-LeNet). This community is supportive and homely :)
 
 Architecture
 -
@@ -31,7 +31,7 @@ So, we know that the parallel portion in the network is called the <b>inception 
 
 But what is this inception module?
 
-The authors wanted to design a good local network topology, a network within a network and then stack a lot of these on top of each other. These local topologies are being called the <b>“inception module”</b>. As we look into the module below, we can see, what’s inside an inception module.
+The authors wanted to design a good local network topology, a network within a network and then stack a lot of these on top of each other. These local topologies are being called the <b>“inception module”</b>. The name inception comes from the movie "[Inception](http://www.imdb.com/title/tt1375666/)", where the model is inspired from the meme " [We need to go Deeper](http://knowyourmeme.com/memes/we-need-to-go-deeper) ". The authors even referenced this meme in the paper ^ - ^ .As we look into the module below, we can see, what’s inside an inception module.
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/in.jpg">
 
