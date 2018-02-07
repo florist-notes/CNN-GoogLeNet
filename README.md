@@ -35,7 +35,7 @@ Important Points
     ❅ Efficient Inception module
     ❅ No Fully Connected Layer
     ❅ Only 5 Million parameters ( 12x less than AlexNet )
-    ❅ 
+    ❅ Computational efficiency ( 2x times less than AlexNet )
   
 Practical
 -
