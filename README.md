@@ -62,7 +62,7 @@ So, Inception module all done! Now we can say that, GoogLeNet = stack the incept
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/auxI.jpg">
 
-These are extra stems coming out from the main network, called the auxiliary layers.
+These are extra stems coming out from the main network, called the auxiliary layers. Apart from the final softmax, there are 1000 way imagenet training classification loss in these 2 seperate places. This is done so that more gradient injected in these intermediate layers, which directs more helpful signal flows through the network.
 
 
 model.summary()
