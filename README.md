@@ -50,6 +50,12 @@ Each one of these convolves and outputs images of 28x28x128, 28x28x192, 28x28x96
 
 In terms of operations, we can note that the total operations ( Conv Ops ) reaches 854 Million! this is hugely expensive. Also, the fact that Pooling layer preserves feature depth, which means total depth after concatenation can only grow at every layer! We need an alternative, which can reduce dimensions at every layer?
 
+<b>Solution:</b> We can project the "Bottleneck" layers into lower dimensions, i.e, we can use 1x1 convolutions to reduce feature depth. Let's review what a 1x1 conv does, it preserves spatial dimension, but reduces the depth.
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/1x1.JPG">
+
+How does it do that? Andre Ng expalins that pretty well [here](https://youtu.be/9EZVpLTPGz8).
+
 model.summary()
 -
 
