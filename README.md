@@ -16,9 +16,14 @@ This paper is important as it is one of the first CNN architectures that really 
 
 Overview
 -
+When we first take a look at the structure of GoogLeNet ( above gif ), we notice immediately that not everything is happening sequentially, as seen in previous architectures. We have pieces of the network that are happening in parallel as well. 'GoogLeNet' is a 22 layer Convolutional Neural Network architecture, introduced in 2014 by [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html), [Wei Liu](https://scholar.google.com/citations?user=yFMX138AAAAJ), [Yangqing Jia](https://scholar.google.com/citations?user=mu5Y2rYAAAAJ), [Pierre Sermanet](https://scholar.google.com/citations?user=0nPi5YYAAAAJ), [Scott Reed](https://scholar.google.com/citations?user=jEANvfgAAAAJ&hl=en), [Dragomir Anguelov](http://dblp.uni-trier.de/pers/hd/a/Anguelov:Dragomir), [Dumitru Erhan](https://scholar.google.co.in/citations?user=wfGiqXEAAAAJ&hl=en), [Vincent Vanhoucke](https://research.google.com/pubs/VincentVanhoucke.html) and [Andrew Rabinovich](https://scholar.google.co.in/citations?user=qn1ejaQAAAAJ&hl=en)
 
 Architecture
 -
+
+ Let's look at the structure of GoogLeNet. 
+
+
 
 model.summary()
 -
