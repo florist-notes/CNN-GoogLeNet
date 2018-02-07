@@ -58,7 +58,9 @@ How does it do that? Andre Ng expalins that pretty well [here](https://youtu.be/
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/ch.JPG">
 
-So, Inception module all done!
+So, Inception module all done! Now we can say that, GoogLeNet = stack the inception modules. But wait ! What are these ?
+
+
 
 model.summary()
 -
