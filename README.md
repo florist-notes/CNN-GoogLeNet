@@ -23,7 +23,7 @@ Architecture
 
  Let's look at the structure of GoogLeNet. 
 
-
+<img src = "https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/gg.png">
 
 model.summary()
 -
