@@ -31,7 +31,7 @@ model.summary()
 Important Points
 -
 
-    ❅ 22 Layers
+    ❅ 22 Layers ( stacking of Inception modules )
     ❅ Efficient Inception module
     ❅ No Fully Connected Layer
     ❅ Only 5 Million parameters ( 12x less than AlexNet )
