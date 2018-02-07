@@ -54,7 +54,7 @@ In terms of operations, we can note that the total operations ( Conv Ops ) reach
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/1x1.JPG">
 
-How does it do that? Andre Ng expalins that pretty well [here](https://youtu.be/9EZVpLTPGz8). So, it's main idea is that its projecting your depth down, right ? So, to eleviate these expensive compute, the authors added 1x1 conv prior to the other filters and after the pooling layer to reduce its depth. Thus in Figure 2 (b) we get the desired inception module by adding the 1x1 bottleneck layers. Now we can check the computation requirements for the same input image.
+How does it do that? Andre Ng expalins that pretty well [here](https://youtu.be/c1RBQzKsDCk). So, it's main idea is that its projecting your depth down, right ? So, to eleviate these expensive compute, the authors added 1x1 conv prior to the other filters and after the pooling layer to reduce its depth. Thus in Figure 2 (b) we get the desired inception module by adding the 1x1 bottleneck layers. Now we can check the computation requirements for the same input image.
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/ch.JPG">
 
@@ -69,7 +69,7 @@ The network in network conv is able to extract information about the very fine g
 So, we are now left with the final GoogLeNet architecture, with 22 weight layers.
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/fg.jpg">
 
-You can also follow Andrew NG's lectures [Inception Network Motivation](https://youtu.be/HunX473yXEI) & [Inception Network](https://youtu.be/LUaRa65J_Ms) for visual understanding. 
+You can also follow Andrew NG's lectures [Inception Network Motivation](https://youtu.be/C86ZXvgpejM) & [Inception Network](https://youtu.be/KfV8CJh7hE0) for visual understanding. 
 
 model.summary()
 -
