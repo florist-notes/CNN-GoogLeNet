@@ -62,7 +62,9 @@ So, Inception module all done! Now we can say that, GoogLeNet = stack the incept
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/auxI.jpg">
 
-These are extra stems coming out from the main network, called the auxiliary layers. Apart from the final softmax, there are 1000 way imagenet training classification loss in these 2 seperate places. This is done so that more gradient injected in these intermediate layers, which directs more helpful signal flows through the network.
+These are extra stems coming out from the main network, called the auxiliary layers. Apart from the final softmax, there are 1000 way imagenet training classification loss in these 2 seperate places. This is done so that more gradient injected in these intermediate layers, which directs more helpful signal flows through the network.Given the relatively large depth of the network, the ability to propagate gradients back through all the layers in an effective manner was a concern. One interesting insight is that the strong performance of relatively shallower networks on this task suggests that the features produced by the layers in the middle of the network should be very discriminative. By adding auxiliary classifiers connected to these intermediate layers, we would expect to encourage discrimination in the lower stages in the classifier, increase the gradient signal that gets propagated back, and provide additional regularization. These classifiers take the form of smaller convolutional networks put on top of the output of the Inception (4a) and (4d) modules. During training, their loss gets added to the total loss of the network with a discount weight (the losses of the auxiliary classifiers were weighted by 0.3). At inference time, these auxiliary networks are discarded.
+
+So, we are now left with the final GoogLeNet structure, with 22 weight layers.
 
 
 model.summary()
@@ -79,11 +81,6 @@ Important Points
   
 Practical
 -
-
-<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g1.jpg">
-
-
-<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g2.jpg">
 
 GoogleNet V-2 ( Inception_V2 )
 -
