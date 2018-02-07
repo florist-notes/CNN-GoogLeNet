@@ -88,6 +88,15 @@ Important Points
     ❅ Utilized concepts from R-CNN for their detection model.
     ❅ During testing, multiple crops of the same image were created, fed into the network, and 
        the softmax probabilities were averaged to give us the final solution.
+    ❅ resize the image to 4 scales where the shorter dimension (height or width) is 256, 288, 320 and 352
+       respectively, take the left, center and right square of these resized images (in the case of portrait
+       images, take the top, center and bottom squares).For each square, then take the 4 corners and the 
+       center 224x224 crop as well as the square resized to 224x224, and their mirrored versions. This results
+       in 4x3x6x2 = 144 crops per image.
+    ❅ dropout layer with 70% ratio of dropped outputs.
+    ❅ trained using the DistBelief, distributed machine learning system.
+    ❅ asynchronous stochastic gradient descent with 0.9 momentum.
+    ❅ fixed learning rate schedule (decreasing the learning rate by 4% every 8 epochs).
   
 Practical
 -
