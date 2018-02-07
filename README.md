@@ -35,7 +35,7 @@ The authors wanted to design a good local network topology, a network within a n
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/in.jpg">
 
-In the inception module (Naïve inception module) they are applying different kinds of filter operations in parallel. We have our input coming from the previous layer, and apply conv ( 1x1, 3x3 & 5x5 ) & a pooling layer in parallel. We get different outputs from these filter operations and then we concatenate all these filter outputs together ‘depth’ wise. Then it creates a single tensor output, that is going to pass down to the next layer. This was the initial idea of the authors, but <b>THE PROBLEM?</b> = Computational Complexity.
+In the inception module (Naïve inception module) they are applying different kinds of filter operations in parallel. We have our input coming from the previous layer, and apply conv ( 1x1, 3x3 & 5x5 filters ) & a pooling layer in parallel. We get different outputs from these filter operations and then we concatenate all these filter outputs together ‘depth’ wise. Then it creates a single tensor output, that is going to pass down to the next layer. This was the initial idea of the authors, but <b>THE PROBLEM?</b> = Computational Complexity.
 
 Let's take an example, suppose we have an input image ( 28x28x256 ) to an inception module & we have convolutions :
 
