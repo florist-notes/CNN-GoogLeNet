@@ -25,6 +25,18 @@ Let's look at the structure of GoogLeNet. It is a <b>22 layer</b> network, which
 
 <img src = "https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/gg.png">
 
+So, we know that the parallel portion in the network is called the <b>inception module</b>, right? As we can see, stacking of these inception modules make up the network.
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/gin.jpg">
+
+But what is this inception module?
+
+The authors wanted to design a good local network topology, a network within a network and then stack a lot of these on top of each other. These local topologies are being called the <b>“inception module”</b>. As we look into the module below, we can see, what’s inside an inception module.
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/in.jpg">
+
+In the inception module (Naïve inception module) they are applying different kinds of filter operations in parallel. We have our input coming from the previous layer, and apply conv ( 1x1, 3x3 & 5x5 ) & a pooling layer in parallel. We get different outputs from these filter operations and then we concatenate all these filter outputs together ‘depth’ wise. Then it creates a single tensor output, that is going to pass down to the next layer. This was the initial idea of the authors, but <b>THE PROBLEM?</b> = Computational Complexity.
+
 model.summary()
 -
 
