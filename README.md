@@ -75,7 +75,7 @@ model.summary()
 -
 
                                                                   |-auxiliary layer
-      Input -> CONV-POOL-NORM-CONV-CONV-NORM-POOL-{ 9 inception modules }-POOL-FC_Softmax->{ 1000 class classification
+      Input -> CONV-POOL-NORM-CONV-CONV-NORM-POOL-{ 9 inception modules }-POOL-FC-Softmax->{ 1000 class classification
                                                            |_auxiliary layer
         
 
