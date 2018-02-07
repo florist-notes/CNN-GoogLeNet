@@ -10,6 +10,7 @@ GoogleNet V-1 ( Inception_V1 ) :
 
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g2.jpg">
+
 GoogleNet V-2 ( Inception_V2 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
