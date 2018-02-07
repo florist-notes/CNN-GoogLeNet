@@ -6,6 +6,8 @@ GoogleNet V-1 ( Inception_V1 ) :
 -
 Paper : " [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) "
 
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/g.png">
+
 GoogleNet V-2 ( Inception_V2 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
