@@ -48,6 +48,8 @@ Each one of these convolves and outputs images of 28x28x128, 28x28x192, 28x28x96
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/opinN.jpg">
 
+In terms of operations, we can note that the total operations ( Conv Ops ) reaches 854 Million! this is hugely expensive. Also, the fact that Pooling layer preserves feature depth, which means total depth after concatenation can only grow at every layer! We need an alternative, which can reduce dimensions at every layer?
+
 model.summary()
 -
 
