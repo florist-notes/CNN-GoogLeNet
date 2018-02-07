@@ -60,6 +60,9 @@ How does it do that? Andre Ng expalins that pretty well [here](https://youtu.be/
 
 So, Inception module all done! Now we can say that, GoogLeNet = stack the inception modules. But wait ! What are these ?
 
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/auxI.jpg">
+
+These are extra stems coming out from the main network, called the auxiliary layers.
 
 
 model.summary()
