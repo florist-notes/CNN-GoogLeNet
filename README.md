@@ -67,6 +67,8 @@ These are extra stems coming out from the main network, called the auxiliary lay
 So, we are now left with the final GoogLeNet structure, with 22 weight layers.
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/fg.jpg">
 
+You can also follow Andrew NG's lectures [Inception Network Motivation](https://youtu.be/HunX473yXEI) & [Inception Network](https://youtu.be/LUaRa65J_Ms) for visual understanding. 
+
 model.summary()
 -
 
