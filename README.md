@@ -74,6 +74,11 @@ You can also follow Andrew NG's lectures [Inception Network Motivation](https://
 model.summary()
 -
 
+                                                                    |-auxiliary layer
+        Input -> CONV-POOL-NORM-CONV-CONV-NORM-POOL-{ 9 inception modules }-POOL-FC_Softmax->{ 1000 class classification
+                                                               |_auxiliary layer
+        
+
 Important Points
 -
 
