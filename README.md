@@ -110,7 +110,14 @@ GoogleNet V-2 ( Inception_V2 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
 
-[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & Christian Szegedy[https://research.google.com/pubs/ChristianSzegedy.html] released this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)", which talks about  . This paper stands as a motivation for Inception V2 module, also called the <b>Inception-BN module</b>.
+[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy(https://research.google.com/pubs/ChristianSzegedy.html) released this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)", which talks about  . This paper stands as a motivation for Inception V2 module, also called the <b>Inception-BN module</b>.
+
+The difference between Inception V1 & Inception V2 (Inception-BN) is :
+
+     1. Batch Normalization
+     2. Replace a 5x5 convolutional kernels with two 3x3 kernels.
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2.jpg">
 
 GoogleNet V-3 ( Inception_V3 )
 -
