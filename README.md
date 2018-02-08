@@ -134,7 +134,7 @@ GoogleNet V-2 ( Inception_V2 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
 
-In the Inception-v2, they introduced Factorization (factorize convolutions into smaller convolutions) and some minor change into Inception-v1. Factorization is a very important trick in Inception-v3, it factorization big kernels into small kernels, here {one 7x7= two 5x5 with strides 2 = three 3x3 with stride 1).However, the networks doesn’t factorization thoroughly, so they continue to factorization, 3x3=(3x1 + 1x3), a picture shows as follows:
+In the Inception-v2, they introduced Factorization (factorize convolutions into smaller convolutions) and some minor change into Inception-v1. Factorization is a very important trick in Inception-v2, it factorization big kernels into small kernels, here {one 7x7= two 5x5 with strides 2 = three 3x3 with stride 1).However, the networks doesn’t factorization thoroughly, so they continue to factorization, 3x3=(3x1 + 1x3), a picture shows as follows:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2a.png">
 
@@ -163,11 +163,11 @@ Important Points:
 Practical:
 -
 
-GoogleNet V-4 ( InceptionResNet_V2 )
+GoogleNet V-4 ( InceptionResNet )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
-Inception-v4 are proposed in fourth paper. It integrades Residual Connection into the network. Residual Connection is proposed in ResNet, it makes networks more wider and can get networks more deeper than previous, also the ResNet is easy to train. 
+Inception-v4 is proposed in fourth paper. It integrades Residual Connection into the network. Residual Connection is proposed in ResNet, it makes networks more wider and can get networks more deeper than previous, also the ResNet is easy to train. 
 
 Important Points:
 -
