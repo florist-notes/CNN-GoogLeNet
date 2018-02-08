@@ -115,7 +115,9 @@ Paper 1 : [Batch Normalization: Accelerating Deep Network Training by Reducing I
 
 Paper 2 : [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
-[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Inception-V1 (BN)</b> & Batch Normalization, which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper stands as a motivation the modern Deep Networks.This inception module (v1) is also called the <b>Inception-BN module</b>.
+[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Batch Normalization (BN)</b> , which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper, " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) " stands as a motivation the modern Deep Networks.This inception module (v1) is also called the <b>Inception-BN module</b>.
+
+Motivation: Deep networks are ill-posed (internal covariate shift) – Carefully parameters Initialization & – Small learning rate.
 
 The difference between Inception & Inception V1 (Inception-BN) is :
 
@@ -128,17 +130,13 @@ We can check the performance graph for Inception & its BN variants, here:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inBN.jpg">
 
-Important Points:
--
-
-Practical:
--
+By replacing 5x5 kernels with two 3x3 kernel, It can save many calculation operations and memories, also 3x3 can get more information than 5x5 kernels, and the overfit also can be avoided, which we have talked in Inception-v1.
 
 GoogleNet V-3 ( Inception-v3 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
 
-In the Inception-v2, they introduced Factorization (factorize convolutions into smaller convolutions) and some minor change into Inception-v1. Factorization is a very important trick in Inception-v2, it factorization big kernels into small kernels, here {one 7x7= two 5x5 with strides 2 = three 3x3 with stride 1).However, the networks doesn’t factorization thoroughly, so they continue to factorization, 3x3=(3x1 + 1x3), a picture shows as follows:
+In the Inception-v3, they introduced Factorization (factorize convolutions into smaller convolutions) and some minor change into Inception-v2. Factorization is a very important trick in Inception-v3, it factorization big kernels into small kernels, here {one 7x7= two 5x5 with strides 2 = three 3x3 with stride 1).However, the networks doesn’t factorization thoroughly, so they continue to factorization, 3x3=(3x1 + 1x3), a picture shows as follows:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2a.png">
 
@@ -154,6 +152,8 @@ Important Points:
     
 Practical:
 -
+
+Will update : Training ...
 
 GoogleNet V-3 ( Inception_V3 )
 -
@@ -171,7 +171,7 @@ GoogleNet V-4 ( InceptionResNet )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
-Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network. I felt taht first covering ResNet will help me to write this section better. Will update this section soon :)
+Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network. I felt that first covering ResNet will help me to write this section better. Will update this section soon :)
 
 
 References
