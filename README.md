@@ -106,6 +106,8 @@ Important Points
 Practical
 -
 
+Will update : Training ...
+
 GoogleNet V-2 ( Inception-v2 )
 -
 
@@ -113,7 +115,7 @@ Paper 1 : [Batch Normalization: Accelerating Deep Network Training by Reducing I
 
 Paper 2 : [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
-[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Inception-V1</b> & Batch Normalization, which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper stands as a motivation the modern Deep Networks.This inception module (v1) is also called the <b>Inception-BN module</b>.
+[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Inception-V1 (BN)</b> & Batch Normalization, which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper stands as a motivation the modern Deep Networks.This inception module (v1) is also called the <b>Inception-BN module</b>.
 
 The difference between Inception & Inception V1 (Inception-BN) is :
 
