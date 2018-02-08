@@ -171,13 +171,8 @@ GoogleNet V-4 ( InceptionResNet )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
-Inception-v4 is proposed in fourth paper. It integrades Residual Connection into the network. Residual Connection is proposed in ResNet, it makes networks more wider and can get networks more deeper than previous, also the ResNet is easy to train. 
+Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network. I felt taht first covering ResNet will help me to write this section better. Will update this section soon :)
 
-Important Points:
--
-
-Practical:
--
 
 References
 -
