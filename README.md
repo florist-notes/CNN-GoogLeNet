@@ -134,14 +134,28 @@ GoogleNet V-2 ( Inception_V2 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
 
-In the Inception-v2, they introduced Factorization(factorize convolutions into smaller convolutions) and some minor change into Inception-v1
+In the Inception-v2, they introduced Factorization (factorize convolutions into smaller convolutions) and some minor change into Inception-v1. Factorization is a very important trick in Inception-v3, it factorization big kernels into small kernels, here {one 7x7= two 5x5 with strides 2 = three 3x3 with stride 1).However, the networks doesn’t factorization thoroughly, so they continue to factorization, 3x3=(3x1 + 1x3), a picture shows as follows:
 
-The difference between Inception V1 & Inception V2 (Inception-BN) is :
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2a.png">
 
-     1. Batch Normalization
-     2. Replace a 5x5 convolutional kernels with two 3x3 kernels.
+In the picture, the module is the component of the networks. There are several inception grid in networks, for example 17x17 grid canbe shows in following picture:
 
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inv2b.png">
 
+Important Points:
+-
+
+    ★ Smaller kernels
+    ★ Several inception grid
+    
+Practical:
+-
+
+GoogleNet V-3 ( Inception_V3 )
+-
+Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
+
+As for Inception-v3, it is a variant of Inception-v2 which adds BN-auxiliary. BN auxiliary refers to the version in which the fully connected layer of the auxiliary classifier is also-normalized, not just convolutions. We are refering to the model [Inception-v2 + BN auxiliary] as Inception-v3.
 
 Important Points:
 -
@@ -149,16 +163,17 @@ Important Points:
 Practical:
 -
 
-
-GoogleNet V-3 ( Inception_V3 )
--
-Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
-
-As for Inception-v3, it is a variant of Inception-v2 which adds BN-auxiliary.BN auxiliary refers to the version in which the fully connected layer of the auxiliary classifier is also-normalized, not just convolutions. We are refering to the model [Inception-v2 + BN auxiliary] as Inception-v3.
-
 GoogleNet V-4 ( InceptionResNet_V2 )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
+
+Inception-v4 are proposed in fourth paper. It integrades Residual Connection into the network. Residual Connection is proposed in ResNet, it makes networks more wider and can get networks more deeper than previous, also the ResNet is easy to train. 
+
+Important Points:
+-
+
+Practical:
+-
 
 References
 -
