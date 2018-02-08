@@ -119,6 +119,17 @@ The difference between Inception V1 & Inception V2 (Inception-BN) is :
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2.jpg">
 
+We can check the performance graph for Inception & its BN variants, here:
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inBN.jpg">
+
+Important Points:
+-
+
+Practical:
+-
+
+
 GoogleNet V-3 ( Inception_V3 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
