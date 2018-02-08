@@ -124,7 +124,7 @@ The difference between Inception & Inception V1 (Inception-BN) is :
      1. Batch Normalization
      2. Replace a 5x5 convolutional kernels with two 3x3 kernels.
 
-<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV1.jpg">
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2.jpg">
 
 We can check the performance graph for Inception & its BN variants, here:
 
