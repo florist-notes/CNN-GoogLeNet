@@ -138,7 +138,7 @@ In the Inception-v2, they introduced Factorization (factorize convolutions into 
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2a.png">
 
-In the picture, the module is the component of the networks. There are several inception grid in networks, for example 17x17 grid canbe shows in following picture:
+In the picture, the module is the component of the networks. There are several inception grid in networks, for example 17x17 grid can be shows in following picture:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inv2b.png">
 
