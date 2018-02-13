@@ -198,7 +198,7 @@ Importnat Points
 Summary
 -
 
-So to summarise the last 4 structures of GoogLeNet variants , we have the following pictures:
+So to summarise the last 4 structures of GoogLeNet variants , we have the following architecture images:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV3.jpg">
 <p></p>
@@ -207,6 +207,11 @@ So to summarise the last 4 structures of GoogLeNet variants , we have the follow
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV1.jpg">
 <p></p>
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV2.jpg">
+
+Practical
+-
+
+Training ... Will update.
 
 References
 -
