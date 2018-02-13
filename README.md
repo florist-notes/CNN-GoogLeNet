@@ -169,6 +169,10 @@ Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](
 Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network, from the model [ResNet](https://github.com/SKKSaikia/CNN-ResNet). Below vertical stack is the structure of GoogLeNet v4, all the intermediate layer's structures are well visualized,
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/incep.jpg">
 
+Also, We scale down residuals in networks with large filters ( ~1000 )
+
+img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/scale.JPG"
+
 Versions:
 -
 
@@ -177,6 +181,12 @@ Versions:
         InceptionResNet V2
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/Inception_ResNet_v2.jpg">
+
+Results
+-
+The Comaprison for all the models mentioned above :
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/result.JPG">
 
 Importnat Points
 -
@@ -191,11 +201,11 @@ Summary
 So to summarise the last 4 structures of GoogLeNet variants , we have the following pictures:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV3.jpg">
-
+<p></p>
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inRes.jpg">
-
+<p></p>
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV1.jpg">
-
+<p></p>
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV2.jpg">
 
 References
