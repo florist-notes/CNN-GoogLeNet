@@ -140,11 +140,11 @@ In the Inception-v3, they introduced Factorization (factorize convolutions into 
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV2a.png">
 
-In the picture, the module is the component of the networks. There are several inception grid in networks, for example 17x17 grid can be shows in following picture:
+In the picture, the module is the component of the networks.Inception module after factorizing n * n into 1 * n and n * 1, they chose n=7. There are several inception grid in networks, for example 17x17 grid can be shows in following picture:
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inv2b.png">
 
-Replacing 5 x 5 by two 3 x 3 convolutions, we have : 
+Replacing 5 x 5 by two 3 x 3 convolutions, it looks like : 
 
 <img src = "https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/replacing_convolutions.png">
 
