@@ -166,8 +166,7 @@ GoogleNet V-4 ( InceptionResNet )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
-Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network. I felt that first covering ResNet will help me to write this section better. Will update this section soon :)
-
+Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network, from the model [ResNet](https://github.com/SKKSaikia/CNN-ResNet). Below vertical stack is the structure of GoogLeNet v4, all the intermediate layer's structures are well visualized,
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/incep.jpg">
 
 Versions:
