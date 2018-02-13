@@ -2,7 +2,7 @@
 🕵🏻 Vision : Model 4: GoogLeNet : Image Classification
 
 
-GoogleNet ( Inception-v1 ) : 
+GoogLeNet ( Inception-v1 ) : 
 -
 <b>Paper : </b> " [Going Deeper with Convolutions](https://arxiv.org/abs/1409.4842) "  <b>Talk :</b> [ILSVRC 2014](https://youtu.be/ySrj_G5gHWI) <b> CVPR Presentation : </b> [CVPR 2015](https://www.cv-foundation.org/openaccess/content_cvpr_2015/html/Szegedy_Going_Deeper_With_2015_CVPR_paper.html)
 
@@ -108,7 +108,7 @@ Practical
 
 Will update : Training ...
 
-GoogleNet V-2 ( Inception-v2 )
+GoogLeNet V-2 ( Inception-v2 )
 -
 
 Paper 1 : [Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)
@@ -132,7 +132,7 @@ We can check the performance graph for Inception & its BN variants, here:
 
 By replacing 5x5 kernels with two 3x3 kernel, It can save many calculation operations and memories, also 3x3 can get more information than 5x5 kernels, and the overfit also can be avoided, which we have talked in Inception-v1.
 
-GoogleNet V-3 ( Inception-v3 )
+GoogLeNet V-3 ( Inception-v3 )
 -
 Paper : " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) "
 
@@ -162,7 +162,7 @@ Practical:
 
 Will update : Training ...
 
-GoogleNet V-4 ( InceptionResNet )
+GoogLeNet V-4 ( InceptionResNet )
 -
 Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](https://arxiv.org/abs/1602.07261) "
 
