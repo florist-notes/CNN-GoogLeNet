@@ -185,6 +185,19 @@ Importnat Points
     • Inception-ResNet-v2 which significantly improve the performance.
     • Inception-v4 which is a pure inception with the same performance as Inception-ResNet-v2.
 
+Summary
+-
+
+So to summarise the last 4 structures of GoogLeNet variants , we have the following pictures:
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inV3.jpg">
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inRes.jpg">
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV1.jpg">
+
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inResV2.jpg">
+
 References
 -
     
