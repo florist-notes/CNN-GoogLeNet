@@ -154,6 +154,7 @@ Important Points:
 -
 
     ★ Smaller kernels
+    ★ Effiecient Grid size reduction
     ★ Several inception grid
     
 Practical:
@@ -168,6 +169,13 @@ Paper : " [Inception-ResNet and the Impact of Residual Connections on Learning](
 Inception-v4 is proposed in this fourth paper. It integrates Residual Connection into the network. I felt that first covering ResNet will help me to write this section better. Will update this section soon :)
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/incep.jpg">
+
+Versions:
+-
+
+        InceptionResNet 
+        InceptionResNet V1
+        InceptionResNet V2
 
 References
 -
