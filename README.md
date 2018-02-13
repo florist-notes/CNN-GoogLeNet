@@ -115,11 +115,11 @@ Paper 1 : [Batch Normalization: Accelerating Deep Network Training by Reducing I
 
 Paper 2 : [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567)
 
-[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Batch Normalization (BN)</b> , which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper, " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) " stands as a motivation the modern Deep Networks.This inception module (v1) is also called the <b>Inception-BN module</b>.
+[Sergey Ioffe](https://research.google.com/pubs/SergeyIoffe.html) & [Christian Szegedy](https://research.google.com/pubs/ChristianSzegedy.html) published this paper called "[Batch Normalization: Accelerating Deep Network Training by Reducing Internal Covariate Shift](https://arxiv.org/abs/1502.03167)" where they introduced <b>Batch Normalization (BN)</b> , which provides a new method for normalization of layer, giving us higher learning rates. Local Response Normalization was used earlier, but with the introduction of Batch Normalization similar accuracy was achieved with 14 times fewer training steps. This paper, " [Rethinking the Inception Architecture for Computer Vision](https://arxiv.org/abs/1512.00567) " stands as a motivation for modern Deep Networks.This inception module (v2) is also called the <b>Inception-BN module</b>.
 
 Motivation: Deep networks are ill-posed (internal covariate shift) – Carefully parameters Initialization & – Small learning rate.
 
-The difference between Inception & Inception V1 (Inception-BN) is :
+The difference between Inception V1 & Inception V2 (Inception-BN) is :
 
      1. Batch Normalization
      2. Replace a 5x5 convolutional kernels with two 3x3 kernels.
