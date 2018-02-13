@@ -144,6 +144,10 @@ In the picture, the module is the component of the networks. There are several i
 
 <img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/inv2b.png">
 
+Replacing 5 x 5 by two 3 x 3 convolutions, we have : 
+
+<img src = "https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/replacing_convolutions.png">
+
 As for Inception-v3, it is a variant of Inception-v2 which adds BN-auxiliary. BN auxiliary refers to the version in which the fully connected layer of the auxiliary classifier is also-normalized, not just convolutions. We are refering to the model [Inception-v2 + BN auxiliary] as Inception-v3.
 
 Important Points:
