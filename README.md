@@ -176,6 +176,15 @@ Versions:
         InceptionResNet V1
         InceptionResNet V2
 
+<img src="https://github.com/SKKSaikia/CNN-GoogLeNet/blob/master/img/Inception_ResNet_v2.jpg">
+
+Importnat Points
+-
+
+    • Inception-ResNet-v1: similar in cost to Inception-v3.
+    • Inception-ResNet-v2 which significantly improve the performance.
+    • Inception-v4 which is a pure inception with the same performance as Inception-ResNet-v2.
+
 References
 -
     
